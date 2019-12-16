@@ -1,5 +1,5 @@
 class Honk < Formula
-  version '0.1.0'
+  version 'v0.1.0'
   desc "Honk!"
   homepage "https://github.com/ineffyble/honk"
 
