@@ -1,4 +1,4 @@
-class HonkBin < Formula
+class Honk < Formula
   version '0.1.0'
   desc "Honk!"
   homepage "https://github.com/ineffyble/honk"
