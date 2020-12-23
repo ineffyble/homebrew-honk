@@ -1,14 +1,14 @@
 class Honk < Formula
-  version 'v0.1.0'
+  version 'v0.2.1'
   desc "Honk!"
   homepage "https://github.com/ineffyble/honk"
 
   if OS.mac?
       url "https://github.com/ineffyble/honk/releases/download/#{version}/honk-#{version}-x86_64-apple-darwin.tar.gz"
-      sha256 "799000290d24f44ee385ee2fb689e4e72f7b790b0fdc51220d17f9fd3e6d6524"
+      sha256 "cad39dc31c93bf4715df96cfb8f717de9dd26faeed0dff7e2677e346c0b9c117"
   elsif OS.linux?
       url "https://github.com/ineffyble/honk/releases/download/#{version}/honk-#{version}-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "3f6da56186d62f98b371d9db5380173ded3db9f8f29b57f11a2d0f842d5a69b5"
+      sha256 "4c6525e88084b5f637c7dc74741e2ea8b731f9c580a66d730a68280fac4ab923"
   end
 
   def install
